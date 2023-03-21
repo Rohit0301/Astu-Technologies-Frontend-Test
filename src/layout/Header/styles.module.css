@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    column-gap: 2px
+}
+
+.title{
+    font-size: 1rem !important;
+    font-weight: 400 !important;
+    color: var(--text-color) !important;
+    font-family: 'Nunito Sans', sans-serif !important;
+    text-transform: capitalize !important;
+}
+
+.iconBtn{
+    padding: 4px !important;
+}
+
+.iconBtn:hover{
+    background-color: var(--light-grey) !important;
+}

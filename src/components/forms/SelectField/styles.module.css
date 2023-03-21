@@ -1,0 +1,33 @@
+.select{
+    background-color: var(--light-grey);
+    font-family: 'Nunito Sans', sans-serif !important;
+    color: var(--text-color) !important;
+    font-size: 14px !important;
+    padding: 2px 0 !important;
+    width: 7rem;
+}
+
+.default{
+    background-color: var(--light-grey);
+    font-family: 'Nunito Sans', sans-serif !important;
+    color: var(--text-light-color) !important;
+    font-size: 14px !important;
+    padding: 2px 0 !important;
+    width: 7rem;
+}
+
+.select fieldset{
+    border: none;
+}
+
+.select div[role="button"]{
+    padding: 11px 14px !important;
+}
+
+.default fieldset{
+    border: none;
+}
+
+.default div[role="button"]{
+    padding: 11px 14px !important;
+}

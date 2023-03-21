@@ -1,0 +1,83 @@
+.sidebar{
+    width:100%;
+    height: 100%;
+}
+
+.logo{
+    margin-bottom: 2.5rem;
+    width: 9rem;
+}
+
+.etyCard{
+    display: flex;
+    align-items: center;
+    padding: 16px 20px;
+    background-color: var(--theme-blue)0D;
+    justify-content: space-between;
+    border-radius: 8px;
+    column-gap: 16px;
+}
+.etyLeft{
+    display: flex;
+    align-items: center;
+}
+
+.etyLogo{
+    background-color: var(--background);
+    padding: 0 8px;
+    border-radius: 4px;
+    margin-right: 16px;
+}
+.etyLogoText{
+    color: var(--theme-blue) !important;
+    font-weight: 700 !important;
+    font-family: 'Nunito Sans', sans-serif !important;
+    font-size: 1.2rem !important;
+    line-height: 2rem !important;
+}
+.etyName{
+    font-family: 'Nunito Sans', sans-serif !important;
+    color: var(--light-grey) !important;
+    font-size: 12px !important;
+}
+.etyWebsite{
+    font-family: 'Nunito Sans', sans-serif !important;
+    color: var(--light-grey) !important;
+    font-size: 10px !important;
+}
+
+.iconBtn{
+    background-color: #D3D3D31A !important;
+    padding: 2px !important;
+}
+
+
+.iconRight{
+    color: var(--light-grey);
+    font-size: 1.1rem !important;
+}
+
+.menu{
+    padding: 48px 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+.menuItem{
+    display: flex;
+    align-items:  center;
+    column-gap: 12px;
+    row-gap: 8px;
+}
+
+.menuItemText{
+    font-family: 'Nunito Sans', sans-serif !important;
+    color: var(--light-grey) !important;
+    font-size: 12px !important;
+    font-weight: 400 !important;
+}
+
+.menuItemLogo{
+    color: var(--light-grey) !important;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,100&display=swap');
+:root {
+  --light-grey: #f5f5f5;
+  --text-color: #323232;
+  --background: #ffffff;
+  --theme-blue: #1161D6;
+  --text-light-color: #767676;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: var(--text-color) !important;
+  font-family: 'Nunito Sans', sans-serif !important;
+  background-color: var(--background);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  width: 100%;
+}
+
+.MuiTooltip-tooltip{
+  max-width: 130px !important;
+  color: var(--text-color)  !important;
+  background-color: var(--light-grey) !important;
+  font-size: 10px !important;
+  font-weight: 400 !important;
+  font-family: 'Nunito Sans', sans-serif !important;
+  margin-top: 0px !important;
+  padding: 8px !important;
+  border-radius: 4px !important;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px !important;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background); 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #bbbbbb; 
+  border-radius: 16px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #939393; 
+}
+
