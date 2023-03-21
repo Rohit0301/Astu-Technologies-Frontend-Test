@@ -20,11 +20,3 @@
 .noBorder{
     border: none !important;
 }
-
-.formContainer{
-    display: flex;
-    align-items: center;
-    column-gap: 16px;
-    row-gap: 12px;
-    margin-bottom: 16px;
-}

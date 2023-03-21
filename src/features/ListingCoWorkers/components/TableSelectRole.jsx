@@ -14,13 +14,11 @@ export default function TableSelectRole({ value }) {
   };
 
   return (
-    <Box className={styles.formContainer}>
-      <SelectField
-        data={userRoleData}
-        onChange={handleInputChange}
-        name='role'
-        value={data.role}
-      />
-    </Box>
+    <SelectField
+      data={userRoleData}
+      onChange={handleInputChange}
+      name='role'
+      value={data.role}
+    />
   );
 }
