@@ -1,6 +1,7 @@
 .main{
     overflow-y: scroll;
     flex-basis: 100%;
+    padding: 24px 32px;
 }
 
 .container{
